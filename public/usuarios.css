@@ -1,0 +1,89 @@
+.input-label {
+    display: none;
+    color: #6c757d;
+    font-size: 0.875em;
+}
+.form-control:focus + .input-label {
+    display: block;
+}
+
+.table thead {
+    background-color: #a9a6a6; /* Cor cinza para o cabeçalho */
+    font-size: 90%;
+}
+
+.table tbody {
+    background-color: #ffffff; /* Cor branca para o corpo */
+    font-size: 150%;    
+}
+
+/* Alterna as cores das linhas da tabela */
+.table tbody tr:nth-child(even) {
+    background-color: #ffffff; /* Cor de fundo para linhas pares (branca) */
+}
+.table tbody tr:nth-child(odd) {
+    background-color: #f2f2f2; /* Cor de fundo para linhas ímpares (cinza claro) */
+}
+/* Diminui o espaço da coluna "ações" */
+.compact-table td:last-child {
+    padding: 0.3rem; /* Ajusta o padding interno das células na coluna "ações" */
+    text-align: center; /* Centraliza o conteúdo da coluna "ações" */
+}
+.compact-table button {
+    font-size: 1rem; /* Ajusta o tamanho da fonte dos botões */
+    margin: 0; /* Remove margens adicionais dos botões */
+}
+
+.btn-edit {
+    background-color: white; /* Cor de fundo do botão */
+}
+.btn-edit i {
+    color: blue; /* Cor do ícone */
+    margin: 0; /* Remove margens adicionais no ícone */
+    font-size: 1.5rem; /* Ajusta o tamanho do ícone */
+}
+.btn-edit:hover {
+    background-color: gray; /* Cor de fundo ao passar o mouse */
+}
+.btn-edit i:hover {
+    color: white; /* Cor do ícone ao passar o mouse */
+}
+
+.btn-trash {
+    background-color: white; /* Cor de fundo do botão */
+}
+.btn-trash i {
+    color: red; /* Cor do ícone */
+    margin: 0; /* Remove margens adicionais no ícone */
+    font-size: 1.5rem; /* Ajusta o tamanho do ícone */
+}
+.btn-trash:hover {
+    background-color: gray; /* Cor de fundo ao passar o mouse */
+}
+.btn-trash i:hover {
+    color: white; /* Cor do ícone ao passar o mouse */
+}
+
+.idTh {
+    width: 3%;
+    text-align: right;
+}
+
+.idTd {
+    width: 3%;
+    text-align: right;
+}
+
+.idadeTh {
+    width: 5%;
+    text-align: center;
+}
+
+.idadeTd {
+    text-align: right;
+}
+
+.acaoTh {
+    width: 9%;
+    text-align: center;
+}

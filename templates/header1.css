@@ -1,0 +1,12 @@
+/* header.css */
+#navbarNav {
+    background-color: red;
+}
+.navbar-nav .nav-link {
+    font-size: 1.25rem; /* Ajusta o tamanho da fonte dos links */
+    background-color: red;
+}
+
+.navbar-brand {
+    font-size: 1.5rem; /* Ajusta o tamanho da fonte do título da navbar */
+}
